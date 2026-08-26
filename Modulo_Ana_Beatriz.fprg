@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Modulo_Ana_Beatriz"/>
+        <attribute name="authors" value="ainte"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-22 05:52:29 "/>
+        <attribute name="created" value="YWludGU7REFCSUJJOzIwMjYtMDgtMjI7IjA1OjQ4OjQ3ICI7MjE0NQ=="/>
+        <attribute name="edited" value="YWludGU7REFCSUJJOzIwMjYtMDgtMjI7IjA1OjUyOjI5ICI7MTsyMjQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n&#250;mero1, n&#250;mero2, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero:&quot;" newline="True"/>
+            <input variable="n&#250;mero1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero:&quot;" newline="True"/>
+            <input variable="n&#250;mero2"/>
+            <if expression="n&#250;mero2 = 0">
+                <then>
+                    <output expression="&quot;N&#227;o e poss&#237;vel calcular o modulo zero&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="resultado" expression="n&#250;mero1 % n&#250;mero2"/>
+                </else>
+            </if>
+            <output expression="&quot;O resultado desse modulo &#233;&quot; &amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
