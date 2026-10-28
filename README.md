@@ -65,16 +65,16 @@ Criterio de ordenacao: CRESCENTE (menor estoque primeiro)
 Produto para repor primeiro: Farinha de Trigo (9 unidades)
 
 ## Estrutura do código  
-|Parte	       | Função                          
-|:---          | :---
-|trocar()      |   troca dois produtos de lugar (nome e quantidade juntos)
-|bubbleSort()  |   ordenação comparando vizinhos
-|quickSort()   |   ordenação por divisão e conquista, com recursão
-|exibir()      |   mostra a lista no terminal
+|Parte	       | Função  |                        
+|:---          | :--- |
+|trocar()      |   troca dois produtos de lugar (nome e quantidade juntos) |
+|bubbleSort()  |   ordenação comparando vizinhos |
+|quickSort()   |   ordenação por divisão e conquista, com recursão |
+|exibir()      |   mostra a lista no terminal \
 
 Os dados ficam em dois arrays paralelos: nomes[] e qtd[]. A posição i representa o mesmo produto nos dois.
 
 ## Tecnologias e ferramentas  
-Linguagem C e compilador GCC
-Git e GitHub
-Visual Studio Code
+- Linguagem C e compilador GCC
+- Git e GitHub
+- Visual Studio Code
