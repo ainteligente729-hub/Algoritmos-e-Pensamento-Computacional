@@ -39,7 +39,7 @@ No Windows (PowerShell), execute com .\estoque.exe.
 Também é possível usar o OnlineGDB: crie o arquivo main.c, cole o código e clique em Run.  
 
 No VsCode, abra p terminal usando as teclas de atalho "ctrl + aspas simples" e digite **gcc main.c -o estoque
-./estoque**
+./estoque** .
 
 ## Exemplo de saída
 === CONTROLE DE ESTOQUE ===  
