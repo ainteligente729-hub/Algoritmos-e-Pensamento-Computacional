@@ -28,4 +28,17 @@ void trocar(char nomes[][30], int qtd[], int a, int b) {
     strcpy(nomes[a], nomes[b]);
     strcpy(nomes[b], auxNome);
 }
+// BUBBLE SORT: compara elementos vizinhos e troca se estiverem fora de ordem
+void bubbleSort(char nomes[][30], int qtd[], int n) {
+    // Laco externo: cada passada deixa o maior valor restante no final
+    for (int i = 0; i < n - 1; i++) {
+        // Laco interno: compara cada elemento com o vizinho da frente
+        for (int j = 0; j < n - 1 - i; j++) {
+            // Se o da esquerda e maior que o da direita, troca
+            if (qtd[j] > qtd[j + 1]) {
+                trocar(nomes, qtd, j, j + 1);
+            }
+        }
+    }
+}
  
