@@ -64,7 +64,7 @@ Criterio de ordenacao: CRESCENTE (menor estoque primeiro)
 
 Produto para repor primeiro: Farinha de Trigo (9 unidades)
 
-## Estrutura do código
+## Estrutura do código  
 |Parte	       | Função                          
 |:---          | :---
 |trocar()      |   troca dois produtos de lugar (nome e quantidade juntos)
@@ -74,7 +74,7 @@ Produto para repor primeiro: Farinha de Trigo (9 unidades)
 
 Os dados ficam em dois arrays paralelos: nomes[] e qtd[]. A posição i representa o mesmo produto nos dois.
 
-## Tecnologias e ferramentas
+## Tecnologias e ferramentas  
 Linguagem C e compilador GCC
 Git e GitHub
 Visual Studio Code
