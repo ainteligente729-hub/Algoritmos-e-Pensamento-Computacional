@@ -38,7 +38,7 @@ No Windows (PowerShell), execute com .\estoque.exe.
 Também é possível usar o OnlineGDB: crie o arquivo main.c, cole o código e clique em Run.
 
 ### Exemplo de saída
-=== CONTROLE DE ESTOQUE ===
+=== CONTROLE DE ESTOQUE ===  
 Criterio de ordenacao: CRESCENTE (menor estoque primeiro)
 
 --- ANTES DA ORDENACAO ---
