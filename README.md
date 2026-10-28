@@ -65,7 +65,7 @@ Criterio de ordenacao: CRESCENTE (menor estoque primeiro)
 Produto para repor primeiro: Farinha de Trigo (9 unidades)
 
 ## Estrutura do código
-|Parte	       |Função                          
+|Parte	       | Função                          
 |:---          | :---
 |trocar()      |   troca dois produtos de lugar (nome e quantidade juntos)
 |bubbleSort()  |   ordenação comparando vizinhos
