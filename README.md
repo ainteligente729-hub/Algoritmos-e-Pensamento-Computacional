@@ -31,12 +31,15 @@ Usa a estratégia de dividir para conquistar:
 
 Com o GCC, dentro da pasta do projeto:
 
-gcc main.c -o estoque
-./estoque
+**gcc main.c -o estoque
+./estoque**
 
 No Windows (PowerShell), execute com .\estoque.exe.
 
-Também é possível usar o OnlineGDB: crie o arquivo main.c, cole o código e clique em Run.
+Também é possível usar o OnlineGDB: crie o arquivo main.c, cole o código e clique em Run.  
+
+No VsCode, abra p terminal usando as teclas de atalho "ctrl + aspas simples" e digite **gcc main.c -o estoque
+./estoque**
 
 ## Exemplo de saída
 === CONTROLE DE ESTOQUE ===  
