@@ -1,6 +1,7 @@
-### Controle de Estoque: Bubble Sort e Quick Sort
+# Controle de Estoque: Bubble Sort e Quick Sort
 
-Disciplina: Algoritmos e Pensamento Computacional Autora: Ana Beatriz
+Disciplina: Algoritmos e Pensamento Computacional   
+Autora: Ana Beatriz
 
 ## Situação-problema
 
@@ -37,7 +38,7 @@ No Windows (PowerShell), execute com .\estoque.exe.
 
 Também é possível usar o OnlineGDB: crie o arquivo main.c, cole o código e clique em Run.
 
-### Exemplo de saída
+## Exemplo de saída
 === CONTROLE DE ESTOQUE ===  
 Criterio de ordenacao: CRESCENTE (menor estoque primeiro)
 
